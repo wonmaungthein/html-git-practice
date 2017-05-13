@@ -1,0 +1,14 @@
+.primary-column {
+    background-color: red;
+    color: white;
+}
+
+.secondary-column {
+    background-color: yellow;
+    color: red;
+}
+
+.third-column {
+    background-color: black;
+    color: white;
+}

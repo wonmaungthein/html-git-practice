@@ -12,3 +12,34 @@
     background-color: black;
     color: white;
 }
+
+
+.TopRowContainer {
+    display: flex;
+}
+
+article:first-child {
+    flex: 50;
+}
+
+article:not(:first-child):not(:last-child) {
+    flex: 20;
+}
+article:last-child {
+    flex: 30;
+}
+
+/*.TopRowContainer .primary-column {*/
+    flex: 5;
+}
+
+
+
+/*.TopRowContainer .secondary-column {*/
+    flex: 2;
+
+}
+
+/*.TopRowContainer .third-column {*/
+    flex: 3;
+
